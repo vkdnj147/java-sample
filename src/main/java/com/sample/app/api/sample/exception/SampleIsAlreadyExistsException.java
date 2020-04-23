@@ -1,7 +1,7 @@
 package com.sample.app.api.sample.exception;
 
-import com.frogbyhinter.app.api.common.exception.ErrorMessageCode;
-import com.frogbyhinter.app.api.common.exception.FrogException;
+import com.sample.app.api.sample.common.exception.ErrorMessageCode;
+import com.sample.app.api.sample.common.exception.FrogException;
 import org.springframework.http.HttpStatus;
 
 public class SampleIsAlreadyExistsException extends FrogException {
